@@ -652,6 +652,13 @@ h4 {
   text-decoration: none; }
   .text a:hover {
     text-decoration: underline; }
+.text ul {
+  margin-left: 10px; }
+  @media (max-width: 768px) {
+    .text ul {
+      margin-left: 0; } }
+  .text ul li {
+    margin-bottom: 5px; }
 
 blockquote {
   border-left: 8px solid #c32f34;
