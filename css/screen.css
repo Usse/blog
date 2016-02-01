@@ -587,7 +587,7 @@ pre[class*="language-"] {
   line-height: 1.5em;
   color: #333; }
   .text p:last-child {
-    margin-bottom: 0px; }
+    margin-bottom: 0; }
 .text span {
   font-family: 'Vollkorn', serif;
   line-height: 1.5em;
@@ -671,7 +671,7 @@ footer {
   margin-bottom: 20px; }
   .links ul {
     list-style-type: none;
-    padding: 0px;
+    padding: 0;
     margin: 0; }
   .links li {
     display: inline-block;
