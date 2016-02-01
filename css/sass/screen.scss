@@ -1,18 +1,11 @@
+@import "partials/_variables";
 @import "partials/_normalize";
 @import "partials/_prism";
 @import "partials/_cf";
+@import "partials/_header";
+@import "partials/_footer";
+@import "partials/_headings";
 
-
-* {
-  margin: 0;
-  padding: 0;
-}
-
-$text-color-primary: #333;
-$text-color-seconday: lighten($text-color-primary,10%);
-$active-color: #c32f34; //#c83c3c;
-$background-color: #232323;
-$white: #fff;
 
 
 
@@ -77,38 +70,6 @@ $white: #fff;
 }
 
 
-//================================================
-h1 {
-  font-family: 'Vollkorn', serif;
-  margin: 30px 0 0 0;
-  color: $active-color;
-  font-size: 2em;
-}
-h2 {
-  font-family: 'Vollkorn', serif;
-  margin: 0 0 40px 0;
-  color: $text-color-seconday;
-  font-size: 1.4em;
-}
-h3 {
-  font-family: 'Vollkorn', serif;
-  margin: 10px 0 5px 0;
-  color: $active-color;
-  font-size: 1.2em;
-}
-h4 {
-  font-family: 'Open Sans', sans-serif;
-  margin: 0 0 0 0;
-  color: $text-color-primary;
-  position: absolute;
-  top: 0;
-  right: -10px;
-  opacity: 0;
-  transition: 400ms all;
-  background: $white;
-  padding: 5px 20px 5px 20px;
-}
-
 
 
 //================================================
@@ -123,46 +84,6 @@ blockquote {
   color: $text-color-primary;
 }
 
-
-
-//================================================
-header {
-  border-bottom: 8px solid $active-color;
-  background: $background-color;
-  color: $white;
-  font-family: 'Vollkorn', serif;
-  padding: 15px 0;
-  a {
-    color: $white;
-    text-decoration: none;
-    &:hover i {
-      color: $active-color;
-    }
-    i {
-      transition: 200ms all;
-    }
-  }
-  .logo {
-    font-size: 2em;
-    float: left;
-  }
-  .contact {
-    float: right;
-    line-height: 44px;
-  }
-}
-
-
-//================================================
-footer {
-  border-top: 8px solid $active-color;
-  font-family: 'Vollkorn', serif;
-  margin-top: 70px;
-  background: $background-color;
-  color: $white;
-  line-height: 1.5em;
-  padding: 60px 0;
-}
 
 
 //================================================

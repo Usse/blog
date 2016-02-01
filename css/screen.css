@@ -550,9 +550,64 @@ pre[class*="language-"] {
 .container {
   *zoom: 1; }
 
-* {
-  margin: 0;
-  padding: 0; }
+header {
+  border-bottom: 8px solid #c32f34;
+  background: #232323;
+  color: #fff;
+  font-family: 'Vollkorn', serif;
+  padding: 15px 0; }
+  header a {
+    color: #fff;
+    text-decoration: none; }
+    header a:hover i {
+      color: #c32f34; }
+    header a i {
+      transition: 200ms all; }
+  header .logo {
+    font-size: 2em;
+    float: left; }
+  header .contact {
+    float: right;
+    line-height: 44px; }
+
+footer {
+  border-top: 8px solid #c32f34;
+  font-family: 'Vollkorn', serif;
+  margin-top: 70px;
+  background: #232323;
+  color: #fff;
+  line-height: 1.5em;
+  padding: 60px 0; }
+
+h1 {
+  font-family: 'Vollkorn', serif;
+  margin: 30px 0 0 0;
+  color: #c32f34;
+  font-size: 2em; }
+
+h2 {
+  font-family: 'Vollkorn', serif;
+  margin: 0 0 40px 0;
+  color: #4d4d4d;
+  font-size: 1.4em; }
+
+h3 {
+  font-family: 'Vollkorn', serif;
+  margin: 10px 0 5px 0;
+  color: #c32f34;
+  font-size: 1.2em; }
+
+h4 {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0 0 0 0;
+  color: #333;
+  position: absolute;
+  top: 0;
+  right: -10px;
+  opacity: 0;
+  transition: 400ms all;
+  background: #fff;
+  padding: 5px 20px 5px 20px; }
 
 .container {
   max-width: 980px;
@@ -598,36 +653,6 @@ pre[class*="language-"] {
   .text a:hover {
     text-decoration: underline; }
 
-h1 {
-  font-family: 'Vollkorn', serif;
-  margin: 30px 0 0 0;
-  color: #c32f34;
-  font-size: 2em; }
-
-h2 {
-  font-family: 'Vollkorn', serif;
-  margin: 0 0 40px 0;
-  color: #4d4d4d;
-  font-size: 1.4em; }
-
-h3 {
-  font-family: 'Vollkorn', serif;
-  margin: 10px 0 5px 0;
-  color: #c32f34;
-  font-size: 1.2em; }
-
-h4 {
-  font-family: 'Open Sans', sans-serif;
-  margin: 0 0 0 0;
-  color: #333;
-  position: absolute;
-  top: 0;
-  right: -10px;
-  opacity: 0;
-  transition: 400ms all;
-  background: #fff;
-  padding: 5px 20px 5px 20px; }
-
 blockquote {
   border-left: 8px solid #c32f34;
   letter-spacing: .02em;
@@ -637,35 +662,6 @@ blockquote {
   padding-left: 20px;
   font-family: 'Vollkorn', serif;
   color: #333; }
-
-header {
-  border-bottom: 8px solid #c32f34;
-  background: #232323;
-  color: #fff;
-  font-family: 'Vollkorn', serif;
-  padding: 15px 0; }
-  header a {
-    color: #fff;
-    text-decoration: none; }
-    header a:hover i {
-      color: #c32f34; }
-    header a i {
-      transition: 200ms all; }
-  header .logo {
-    font-size: 2em;
-    float: left; }
-  header .contact {
-    float: right;
-    line-height: 44px; }
-
-footer {
-  border-top: 8px solid #c32f34;
-  font-family: 'Vollkorn', serif;
-  margin-top: 70px;
-  background: #232323;
-  color: #fff;
-  line-height: 1.5em;
-  padding: 60px 0; }
 
 .links {
   margin-bottom: 20px; }
