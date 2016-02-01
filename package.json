@@ -1,0 +1,13 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "deploy": "surge -d fast-animal.surge.sh",
+    "sass" : "sass -w css/sass/screen.scss:css/screen.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
