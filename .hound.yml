@@ -1,0 +1,5 @@
+scss:
+  enabled: false
+
+javascript:
+  ignore_file: .javascript_ignore
