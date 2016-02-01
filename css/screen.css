@@ -551,7 +551,7 @@ pre[class*="language-"] {
   *zoom: 1; }
 
 header {
-  border-bottom: 8px solid #c32f34;
+  border-bottom: 8px solid #00bcd4;
   background: #232323;
   color: #fff;
   font-family: 'Vollkorn', serif;
@@ -560,7 +560,7 @@ header {
     color: #fff;
     text-decoration: none; }
     header a:hover i {
-      color: #c32f34; }
+      color: #00bcd4; }
     header a i {
       transition: 200ms all; }
   header .logo {
@@ -571,7 +571,7 @@ header {
     line-height: 44px; }
 
 footer {
-  border-top: 8px solid #c32f34;
+  border-top: 8px solid #00bcd4;
   font-family: 'Vollkorn', serif;
   margin-top: 70px;
   background: #232323;
@@ -582,7 +582,7 @@ footer {
 h1 {
   font-family: 'Vollkorn', serif;
   margin: 30px 0 0 0;
-  color: #c32f34;
+  color: #00bcd4;
   font-size: 2em; }
 
 h2 {
@@ -592,9 +592,9 @@ h2 {
   font-size: 1.4em; }
 
 h3 {
-  font-family: 'Vollkorn', serif;
+  font-family: 'Open Sans', sans-serif;
   margin: 10px 0 5px 0;
-  color: #c32f34;
+  color: #00bcd4;
   font-size: 1.2em; }
 
 h4 {
@@ -622,7 +622,7 @@ h4 {
 .code {
   background: #232323;
   padding: 0;
-  margin: 15px 0 30px 0; }
+  margin: 40px 0 40px 0; }
   .code:hover h4 {
     opacity: 1; }
   .code .container {
@@ -638,7 +638,7 @@ h4 {
 .text p {
   margin-bottom: 20px;
   margin-top: 0;
-  font-family: 'Vollkorn', serif;
+  font-family: 'Open Sans', sans-serif;
   line-height: 1.5em;
   color: #333; }
   .text p:last-child {
@@ -648,7 +648,7 @@ h4 {
   line-height: 1.5em;
   color: #333; }
 .text a {
-  color: #c32f34;
+  color: #00bcd4;
   text-decoration: none; }
   .text a:hover {
     text-decoration: underline; }
@@ -661,14 +661,15 @@ h4 {
     margin-bottom: 5px; }
 
 blockquote {
-  border-left: 8px solid #c32f34;
+  border-left: 8px solid #00bcd4;
   letter-spacing: .02em;
   margin: 30px 20px 30px 20px;
   padding: 8px 0;
   font-style: italic;
   padding-left: 20px;
   font-family: 'Vollkorn', serif;
-  color: #333; }
+  color: #333;
+  font-size: 1.3em; }
 
 .links {
   margin-bottom: 20px; }
@@ -681,14 +682,14 @@ blockquote {
     margin-right: 10px; }
   .links a {
     color: #4d4d4d;
-    font-family: 'Vollkorn', serif;
+    font-family: 'Open Sans', sans-serif;
     text-decoration: none;
-    font-size: 1.2em;
+    font-size: 1em;
     transition: 200ms all; }
     .links a:hover {
-      color: #c32f34; }
+      color: #00bcd4; }
     .links a i {
-      color: #c32f34; }
+      color: #00bcd4; }
 
 .further {
   margin-top: 30px; }
@@ -700,14 +701,14 @@ blockquote {
     margin-bottom: 5px; }
 
 a.ui-button:link, a.ui-button:visited {
-  background: #c32f34;
+  background: #00bcd4;
   color: #fff;
   padding: 8px 10px 7px 10px;
   text-decoration: none;
   border-radius: 2px;
   transition: 200ms all; }
   a.ui-button:link:hover, a.ui-button:visited:hover {
-    background: #d3484d; }
+    background: #00e0fd; }
   a.ui-button:link i, a.ui-button:visited i {
     margin-right: 5px; }
 
