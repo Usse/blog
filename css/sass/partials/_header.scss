@@ -1,0 +1,25 @@
+header {
+  border-bottom: 8px solid $active-color;
+  background: $background-color;
+  color: $white;
+  font-family: 'Vollkorn', serif;
+  padding: 15px 0;
+  a {
+    color: $white;
+    text-decoration: none;
+    &:hover i {
+      color: $active-color;
+    }
+    i {
+      transition: 200ms all;
+    }
+  }
+  .logo {
+    font-size: 2em;
+    float: left;
+  }
+  .contact {
+    float: right;
+    line-height: 44px;
+  }
+}
