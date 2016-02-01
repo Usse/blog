@@ -658,7 +658,9 @@ h4 {
     .text ul {
       margin-left: 0; } }
   .text ul li {
-    margin-bottom: 5px; }
+    margin-bottom: 5px;
+    font-family: 'Open Sans', sans-serif;
+    color: #333; }
 
 blockquote {
   border-left: 8px solid #00bcd4;
