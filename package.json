@@ -5,9 +5,13 @@
   "main": "app.js",
   "scripts": {
     "deploy": "surge -d fast-animal.surge.sh",
-    "sass" : "sass -w css/sass/screen.scss:css/screen.css"
+    "sass": "sass -w css/sass/screen.scss:css/screen.css",
+    "test": "echo \"Everything is fine here. Trust me.\""
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "surge": "^0.17.7"
+  }
 }
